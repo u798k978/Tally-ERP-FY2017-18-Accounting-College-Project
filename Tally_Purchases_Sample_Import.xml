@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>Vouchers</REPORTNAME>
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170703</DATE>
+            <NARRATION>Purchase from Supplier 20 - Rajasthan - P00057</NARRATION>
+            <PARTYNAME>Supplier 20 - Rajasthan</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00057</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 20 - Rajasthan</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00057</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 20 - Rajasthan</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-10936.46</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>9297.97</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1638.49</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>446.65/kg</RATE>
+              <AMOUNT>9102.73</AMOUNT>
+              <ACTUALQTY>20.38 kg</ACTUALQTY>
+              <BILLEDQTY>20.38 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170704</DATE>
+            <NARRATION>Purchase from Supplier 14 - Karnataka - P00058</NARRATION>
+            <PARTYNAME>Supplier 14 - Karnataka</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00058</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 14 - Karnataka</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00058</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 14 - Karnataka</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-607.31</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Domestic</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>542.50</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>32.41</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>32.41</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Basmati Rice - 5kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>35.97/kg</RATE>
+              <AMOUNT>360.06</AMOUNT>
+              <ACTUALQTY>10.01 kg</ACTUALQTY>
+              <BILLEDQTY>10.01 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170705</DATE>
+            <NARRATION>Purchase from Supplier 24 - Karnataka - P00059</NARRATION>
+            <PARTYNAME>Supplier 24 - Karnataka</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00059</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 24 - Karnataka</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00059</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 24 - Karnataka</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5666.29</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Domestic</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>4817.01</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>424.64</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>424.64</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>125.02/kg</RATE>
+              <AMOUNT>4718.25</AMOUNT>
+              <ACTUALQTY>37.74 kg</ACTUALQTY>
+              <BILLEDQTY>37.74 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170706</DATE>
+            <NARRATION>Purchase from Supplier 30 - Uttar Pradesh - P00060</NARRATION>
+            <PARTYNAME>Supplier 30 - Uttar Pradesh</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00060</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 30 - Uttar Pradesh</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00060</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 30 - Uttar Pradesh</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1332.65</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1144.43</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>188.22</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>37.52/pcs</RATE>
+              <AMOUNT>1045.68</AMOUNT>
+              <ACTUALQTY>27.87 pcs</ACTUALQTY>
+              <BILLEDQTY>27.87 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170707</DATE>
+            <NARRATION>Purchase from Supplier 09 - Gujarat - P00061</NARRATION>
+            <PARTYNAME>Supplier 09 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00061</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 09 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00061</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 09 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3635.57</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>3114.76</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>520.81</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sugar - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>336.05/kg</RATE>
+              <AMOUNT>2893.39</AMOUNT>
+              <ACTUALQTY>8.61 kg</ACTUALQTY>
+              <BILLEDQTY>8.61 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170708</DATE>
+            <NARRATION>Purchase from Supplier 08 - Gujarat - P00062</NARRATION>
+            <PARTYNAME>Supplier 08 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00062</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 08 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00062</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 08 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5711.53</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>4845.21</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>866.32</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>322.58/kg</RATE>
+              <AMOUNT>4812.89</AMOUNT>
+              <ACTUALQTY>14.92 kg</ACTUALQTY>
+              <BILLEDQTY>14.92 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170714</DATE>
+            <NARRATION>Purchase from Supplier 02 - Telangana - P00063</NARRATION>
+            <PARTYNAME>Supplier 02 - Telangana</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00063</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 02 - Telangana</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00063</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 02 - Telangana</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-10246.98</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>8716.84</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1530.14</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>459.75/kg</RATE>
+              <AMOUNT>8500.78</AMOUNT>
+              <ACTUALQTY>18.49 kg</ACTUALQTY>
+              <BILLEDQTY>18.49 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170715</DATE>
+            <NARRATION>Purchase from Supplier 18 - Tamil Nadu - P00064</NARRATION>
+            <PARTYNAME>Supplier 18 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00064</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 18 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00064</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 18 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4411.10</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>3758.86</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>652.24</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>475.53/pcs</RATE>
+              <AMOUNT>3623.54</AMOUNT>
+              <ACTUALQTY>7.62 pcs</ACTUALQTY>
+              <BILLEDQTY>7.62 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170720</DATE>
+            <NARRATION>Purchase from Supplier 21 - Tamil Nadu - P00065</NARRATION>
+            <PARTYNAME>Supplier 21 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00065</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 21 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00065</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 21 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-11246.18</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>9550.70</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1695.48</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>292.89/kg</RATE>
+              <AMOUNT>9419.34</AMOUNT>
+              <ACTUALQTY>32.16 kg</ACTUALQTY>
+              <BILLEDQTY>32.16 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170721</DATE>
+            <NARRATION>Purchase from Supplier 30 - Uttar Pradesh - P00066</NARRATION>
+            <PARTYNAME>Supplier 30 - Uttar Pradesh</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00066</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 30 - Uttar Pradesh</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00066</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 30 - Uttar Pradesh</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3879.92</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>3291.48</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>588.44</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>132.89/ltr</RATE>
+              <AMOUNT>3269.09</AMOUNT>
+              <ACTUALQTY>24.60 ltr</ACTUALQTY>
+              <BILLEDQTY>24.60 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170724</DATE>
+            <NARRATION>Purchase from Supplier 14 - Karnataka - P00067</NARRATION>
+            <PARTYNAME>Supplier 14 - Karnataka</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00067</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 14 - Karnataka</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00067</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 14 - Karnataka</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-435.94</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Domestic</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>389.32</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>23.31</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>23.31</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>30.01/ltr</RATE>
+              <AMOUNT>258.99</AMOUNT>
+              <ACTUALQTY>8.63 ltr</ACTUALQTY>
+              <BILLEDQTY>8.63 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170724</DATE>
+            <NARRATION>Purchase from Supplier 10 - Tamil Nadu - P00068</NARRATION>
+            <PARTYNAME>Supplier 10 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00068</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 10 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00068</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 10 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-11419.12</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>9695.98</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1723.14</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>351.69/pcs</RATE>
+              <AMOUNT>9573.00</AMOUNT>
+              <ACTUALQTY>27.22 pcs</ACTUALQTY>
+              <BILLEDQTY>27.22 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170725</DATE>
+            <NARRATION>Purchase from Supplier 01 - Delhi - P00069</NARRATION>
+            <PARTYNAME>Supplier 01 - Delhi</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00069</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 01 - Delhi</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00069</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 01 - Delhi</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4335.80</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>3683.15</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>652.65</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ghee - 500ml</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>164.14/ltr</RATE>
+              <AMOUNT>3625.85</AMOUNT>
+              <ACTUALQTY>22.09 ltr</ACTUALQTY>
+              <BILLEDQTY>22.09 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170725</DATE>
+            <NARRATION>Purchase from Supplier 07 - Gujarat - P00070</NARRATION>
+            <PARTYNAME>Supplier 07 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00070</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 07 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00070</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 07 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-12204.25</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>10352.19</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1852.06</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>232.63/pcs</RATE>
+              <AMOUNT>10289.22</AMOUNT>
+              <ACTUALQTY>44.23 pcs</ACTUALQTY>
+              <BILLEDQTY>44.23 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170725</DATE>
+            <NARRATION>Purchase from Supplier 27 - Karnataka - P00071</NARRATION>
+            <PARTYNAME>Supplier 27 - Karnataka</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00071</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 27 - Karnataka</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00071</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 27 - Karnataka</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1029.49</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Domestic</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>896.37</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>66.56</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>66.56</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>62.62/pcs</RATE>
+              <AMOUNT>739.54</AMOUNT>
+              <ACTUALQTY>11.81 pcs</ACTUALQTY>
+              <BILLEDQTY>11.81 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170726</DATE>
+            <NARRATION>Purchase from Supplier 10 - Tamil Nadu - P00072</NARRATION>
+            <PARTYNAME>Supplier 10 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00072</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 10 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00072</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 10 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-18160.66</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>15406.06</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>2754.60</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>409.18/kg</RATE>
+              <AMOUNT>15303.33</AMOUNT>
+              <ACTUALQTY>37.40 kg</ACTUALQTY>
+              <BILLEDQTY>37.40 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170729</DATE>
+            <NARRATION>Purchase from Supplier 05 - Maharashtra - P00073</NARRATION>
+            <PARTYNAME>Supplier 05 - Maharashtra</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00073</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 05 - Maharashtra</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00073</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 05 - Maharashtra</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1938.76</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1660.36</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>278.40</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>241.29/ltr</RATE>
+              <AMOUNT>1546.67</AMOUNT>
+              <ACTUALQTY>6.41 ltr</ACTUALQTY>
+              <BILLEDQTY>6.41 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170801</DATE>
+            <NARRATION>Purchase from Supplier 07 - Gujarat - P00074</NARRATION>
+            <PARTYNAME>Supplier 07 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00074</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 07 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00074</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 07 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-245.02</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>227.97</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>17.05</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>48.58/ltr</RATE>
+              <AMOUNT>94.73</AMOUNT>
+              <ACTUALQTY>1.95 ltr</ACTUALQTY>
+              <BILLEDQTY>1.95 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170802</DATE>
+            <NARRATION>Purchase from Supplier 10 - Tamil Nadu - P00075</NARRATION>
+            <PARTYNAME>Supplier 10 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00075</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 10 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00075</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 10 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1963.97</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1664.62</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>299.35</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>233.25/ltr</RATE>
+              <AMOUNT>1663.07</AMOUNT>
+              <ACTUALQTY>7.13 ltr</ACTUALQTY>
+              <BILLEDQTY>7.13 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170805</DATE>
+            <NARRATION>Purchase from Supplier 01 - Delhi - P00076</NARRATION>
+            <PARTYNAME>Supplier 01 - Delhi</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00076</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 01 - Delhi</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00076</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 01 - Delhi</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3281.63</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>2811.01</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>470.62</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>224.62/pcs</RATE>
+              <AMOUNT>2614.58</AMOUNT>
+              <ACTUALQTY>11.64 pcs</ACTUALQTY>
+              <BILLEDQTY>11.64 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170809</DATE>
+            <NARRATION>Purchase from Supplier 15 - Uttar Pradesh - P00077</NARRATION>
+            <PARTYNAME>Supplier 15 - Uttar Pradesh</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00077</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 15 - Uttar Pradesh</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00077</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 15 - Uttar Pradesh</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-8747.44</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>7445.18</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1302.26</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>181.87/kg</RATE>
+              <AMOUNT>7234.79</AMOUNT>
+              <ACTUALQTY>39.78 kg</ACTUALQTY>
+              <BILLEDQTY>39.78 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170811</DATE>
+            <NARRATION>Purchase from Supplier 09 - Gujarat - P00078</NARRATION>
+            <PARTYNAME>Supplier 09 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00078</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 09 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00078</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 09 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-6801.48</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>5770.89</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1030.59</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ghee - 500ml</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>283.02/ltr</RATE>
+              <AMOUNT>5725.49</AMOUNT>
+              <ACTUALQTY>20.23 ltr</ACTUALQTY>
+              <BILLEDQTY>20.23 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170815</DATE>
+            <NARRATION>Purchase from Supplier 27 - Karnataka - P00079</NARRATION>
+            <PARTYNAME>Supplier 27 - Karnataka</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00079</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 27 - Karnataka</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00079</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 27 - Karnataka</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3273.36</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Domestic</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>2783.53</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>244.91</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>244.91</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Atta - 10kg Pack</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>389.87/kg</RATE>
+              <AMOUNT>2721.29</AMOUNT>
+              <ACTUALQTY>6.98 kg</ACTUALQTY>
+              <BILLEDQTY>6.98 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170816</DATE>
+            <NARRATION>Purchase from Supplier 24 - Karnataka - P00080</NARRATION>
+            <PARTYNAME>Supplier 24 - Karnataka</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00080</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 24 - Karnataka</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00080</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 24 - Karnataka</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4776.14</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Domestic</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>4051.24</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>362.45</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>362.45</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Atta - 10kg Pack</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>374.28/kg</RATE>
+              <AMOUNT>4027.25</AMOUNT>
+              <ACTUALQTY>10.76 kg</ACTUALQTY>
+              <BILLEDQTY>10.76 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170817</DATE>
+            <NARRATION>Purchase from Supplier 16 - Maharashtra - P00081</NARRATION>
+            <PARTYNAME>Supplier 16 - Maharashtra</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00081</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 16 - Maharashtra</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00081</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 16 - Maharashtra</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-7111.79</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>6039.34</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1072.45</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>173.25/pcs</RATE>
+              <AMOUNT>5958.07</AMOUNT>
+              <ACTUALQTY>34.39 pcs</ACTUALQTY>
+              <BILLEDQTY>34.39 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170821</DATE>
+            <NARRATION>Purchase from Supplier 24 - Karnataka - P00082</NARRATION>
+            <PARTYNAME>Supplier 24 - Karnataka</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00082</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 24 - Karnataka</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00082</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 24 - Karnataka</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4708.43</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Domestic</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>4014.47</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>346.98</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>346.98</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sugar - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>145.32/kg</RATE>
+              <AMOUNT>3855.34</AMOUNT>
+              <ACTUALQTY>26.53 kg</ACTUALQTY>
+              <BILLEDQTY>26.53 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170821</DATE>
+            <NARRATION>Purchase from Supplier 29 - Tamil Nadu - P00083</NARRATION>
+            <PARTYNAME>Supplier 29 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00083</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 29 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00083</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 29 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-6594.78</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>5593.18</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1001.60</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Atta - 10kg Pack</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>128.45/kg</RATE>
+              <AMOUNT>5564.45</AMOUNT>
+              <ACTUALQTY>43.32 kg</ACTUALQTY>
+              <BILLEDQTY>43.32 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170821</DATE>
+            <NARRATION>Purchase from Supplier 11 - Telangana - P00084</NARRATION>
+            <PARTYNAME>Supplier 11 - Telangana</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00084</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 11 - Telangana</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00084</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 11 - Telangana</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1724.57</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1465.99</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>258.58</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Atta - 10kg Pack</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>156.15/kg</RATE>
+              <AMOUNT>1436.58</AMOUNT>
+              <ACTUALQTY>9.20 kg</ACTUALQTY>
+              <BILLEDQTY>9.20 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170825</DATE>
+            <NARRATION>Purchase from Supplier 02 - Telangana - P00085</NARRATION>
+            <PARTYNAME>Supplier 02 - Telangana</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00085</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 02 - Telangana</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00085</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 02 - Telangana</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-11803.96</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>10026.09</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1777.87</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sugar - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>250.75/kg</RATE>
+              <AMOUNT>9877.04</AMOUNT>
+              <ACTUALQTY>39.39 kg</ACTUALQTY>
+              <BILLEDQTY>39.39 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170825</DATE>
+            <NARRATION>Purchase from Supplier 08 - Gujarat - P00086</NARRATION>
+            <PARTYNAME>Supplier 08 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00086</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 08 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00086</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 08 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-10641.28</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>9031.02</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1610.26</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Basmati Rice - 5kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>350.82/kg</RATE>
+              <AMOUNT>8945.91</AMOUNT>
+              <ACTUALQTY>25.50 kg</ACTUALQTY>
+              <BILLEDQTY>25.50 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170901</DATE>
+            <NARRATION>Purchase from Supplier 02 - Telangana - P00087</NARRATION>
+            <PARTYNAME>Supplier 02 - Telangana</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00087</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 02 - Telangana</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00087</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 02 - Telangana</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-13965.47</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>11865.25</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>2100.22</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>358.13/ltr</RATE>
+              <AMOUNT>11667.88</AMOUNT>
+              <ACTUALQTY>32.58 ltr</ACTUALQTY>
+              <BILLEDQTY>32.58 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170902</DATE>
+            <NARRATION>Purchase from Supplier 08 - Gujarat - P00088</NARRATION>
+            <PARTYNAME>Supplier 08 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00088</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 08 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00088</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 08 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-23339.46</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>19808.06</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>3531.40</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>399.57/ltr</RATE>
+              <AMOUNT>19618.89</AMOUNT>
+              <ACTUALQTY>49.10 ltr</ACTUALQTY>
+              <BILLEDQTY>49.10 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170902</DATE>
+            <NARRATION>Purchase from Supplier 01 - Delhi - P00089</NARRATION>
+            <PARTYNAME>Supplier 01 - Delhi</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00089</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 01 - Delhi</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00089</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 01 - Delhi</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-8559.29</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>7263.12</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1296.17</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>369.09/kg</RATE>
+              <AMOUNT>7200.95</AMOUNT>
+              <ACTUALQTY>19.51 kg</ACTUALQTY>
+              <BILLEDQTY>19.51 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170902</DATE>
+            <NARRATION>Purchase from Supplier 23 - Uttar Pradesh - P00090</NARRATION>
+            <PARTYNAME>Supplier 23 - Uttar Pradesh</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00090</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 23 - Uttar Pradesh</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00090</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 23 - Uttar Pradesh</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-9596.87</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>8151.71</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1445.16</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>282.80/pcs</RATE>
+              <AMOUNT>8028.69</AMOUNT>
+              <ACTUALQTY>28.39 pcs</ACTUALQTY>
+              <BILLEDQTY>28.39 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170904</DATE>
+            <NARRATION>Purchase from Supplier 18 - Tamil Nadu - P00091</NARRATION>
+            <PARTYNAME>Supplier 18 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00091</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 18 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00091</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 18 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5141.18</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>4390.10</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>751.08</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>247.49/ltr</RATE>
+              <AMOUNT>4172.68</AMOUNT>
+              <ACTUALQTY>16.86 ltr</ACTUALQTY>
+              <BILLEDQTY>16.86 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170906</DATE>
+            <NARRATION>Purchase from Supplier 03 - Delhi - P00092</NARRATION>
+            <PARTYNAME>Supplier 03 - Delhi</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00092</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 03 - Delhi</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00092</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 03 - Delhi</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1744.72</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1488.62</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>256.10</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sugar - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>165.44/kg</RATE>
+              <AMOUNT>1422.78</AMOUNT>
+              <ACTUALQTY>8.60 kg</ACTUALQTY>
+              <BILLEDQTY>8.60 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170906</DATE>
+            <NARRATION>Purchase from Supplier 01 - Delhi - P00093</NARRATION>
+            <PARTYNAME>Supplier 01 - Delhi</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00093</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 01 - Delhi</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00093</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 01 - Delhi</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-7851.47</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>6660.79</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1190.68</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ghee - 500ml</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>205.05/ltr</RATE>
+              <AMOUNT>6614.91</AMOUNT>
+              <ACTUALQTY>32.26 ltr</ACTUALQTY>
+              <BILLEDQTY>32.26 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170912</DATE>
+            <NARRATION>Purchase from Supplier 25 - Gujarat - P00094</NARRATION>
+            <PARTYNAME>Supplier 25 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00094</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 25 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00094</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 25 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5672.13</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>4832.07</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>840.06</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sugar - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>367.48/kg</RATE>
+              <AMOUNT>4667.00</AMOUNT>
+              <ACTUALQTY>12.70 kg</ACTUALQTY>
+              <BILLEDQTY>12.70 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170912</DATE>
+            <NARRATION>Purchase from Supplier 07 - Gujarat - P00095</NARRATION>
+            <PARTYNAME>Supplier 07 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00095</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 07 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00095</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 07 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-15854.15</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>13441.60</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>2412.55</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sugar - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>388.72/kg</RATE>
+              <AMOUNT>13403.07</AMOUNT>
+              <ACTUALQTY>34.48 kg</ACTUALQTY>
+              <BILLEDQTY>34.48 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170914</DATE>
+            <NARRATION>Purchase from Supplier 14 - Karnataka - P00096</NARRATION>
+            <PARTYNAME>Supplier 14 - Karnataka</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00096</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 14 - Karnataka</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00096</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 14 - Karnataka</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1564.50</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Domestic</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1350.90</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>106.80</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>106.80</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>70.72/kg</RATE>
+              <AMOUNT>1186.68</AMOUNT>
+              <ACTUALQTY>16.78 kg</ACTUALQTY>
+              <BILLEDQTY>16.78 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170915</DATE>
+            <NARRATION>Purchase from Supplier 06 - Gujarat - P00097</NARRATION>
+            <PARTYNAME>Supplier 06 - Gujarat</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00097</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 06 - Gujarat</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00097</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 06 - Gujarat</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-273.84</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>239.30</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>34.54</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ghee - 500ml</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>75.85/ltr</RATE>
+              <AMOUNT>191.90</AMOUNT>
+              <ACTUALQTY>2.53 ltr</ACTUALQTY>
+              <BILLEDQTY>2.53 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170915</DATE>
+            <NARRATION>Purchase from Supplier 22 - Delhi - P00098</NARRATION>
+            <PARTYNAME>Supplier 22 - Delhi</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00098</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 22 - Delhi</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00098</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 22 - Delhi</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-11376.49</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>9650.85</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1725.64</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>358.12/pcs</RATE>
+              <AMOUNT>9586.87</AMOUNT>
+              <ACTUALQTY>26.77 pcs</ACTUALQTY>
+              <BILLEDQTY>26.77 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170915</DATE>
+            <NARRATION>Purchase from Supplier 20 - Rajasthan - P00099</NARRATION>
+            <PARTYNAME>Supplier 20 - Rajasthan</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00099</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 20 - Rajasthan</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00099</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 20 - Rajasthan</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-2514.63</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>2139.00</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>375.63</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>466.85/kg</RATE>
+              <AMOUNT>2086.82</AMOUNT>
+              <ACTUALQTY>4.47 kg</ACTUALQTY>
+              <BILLEDQTY>4.47 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170916</DATE>
+            <NARRATION>Purchase from Supplier 15 - Uttar Pradesh - P00100</NARRATION>
+            <PARTYNAME>Supplier 15 - Uttar Pradesh</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00100</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 15 - Uttar Pradesh</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00100</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 15 - Uttar Pradesh</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-7675.31</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>6532.85</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1142.46</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ghee - 500ml</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>196.44/ltr</RATE>
+              <AMOUNT>6346.98</AMOUNT>
+              <ACTUALQTY>32.31 ltr</ACTUALQTY>
+              <BILLEDQTY>32.31 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170916</DATE>
+            <NARRATION>Purchase from Supplier 26 - Tamil Nadu - P00101</NARRATION>
+            <PARTYNAME>Supplier 26 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00101</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 26 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00101</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 26 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1581.36</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1360.39</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>220.97</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>318.04/kg</RATE>
+              <AMOUNT>1227.63</AMOUNT>
+              <ACTUALQTY>3.86 kg</ACTUALQTY>
+              <BILLEDQTY>3.86 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170916</DATE>
+            <NARRATION>Purchase from Supplier 27 - Karnataka - P00102</NARRATION>
+            <PARTYNAME>Supplier 27 - Karnataka</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00102</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 27 - Karnataka</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00102</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 27 - Karnataka</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-854.82</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Domestic</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>744.16</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>55.33</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>55.33</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>127.55/ltr</RATE>
+              <AMOUNT>614.79</AMOUNT>
+              <ACTUALQTY>4.82 ltr</ACTUALQTY>
+              <BILLEDQTY>4.82 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170918</DATE>
+            <NARRATION>Purchase from Supplier 18 - Tamil Nadu - P00103</NARRATION>
+            <PARTYNAME>Supplier 18 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00103</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 18 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00103</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 18 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3397.82</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>2889.07</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>508.75</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>274.94/pcs</RATE>
+              <AMOUNT>2826.38</AMOUNT>
+              <ACTUALQTY>10.28 pcs</ACTUALQTY>
+              <BILLEDQTY>10.28 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170918</DATE>
+            <NARRATION>Purchase from Supplier 18 - Tamil Nadu - P00104</NARRATION>
+            <PARTYNAME>Supplier 18 - Tamil Nadu</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00104</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 18 - Tamil Nadu</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00104</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 18 - Tamil Nadu</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-12884.14</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>10948.06</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1936.08</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ragi Flour - 1kg</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>379.40/kg</RATE>
+              <AMOUNT>10755.99</AMOUNT>
+              <ACTUALQTY>28.35 kg</ACTUALQTY>
+              <BILLEDQTY>28.35 kg</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170919</DATE>
+            <NARRATION>Purchase from Supplier 22 - Delhi - P00105</NARRATION>
+            <PARTYNAME>Supplier 22 - Delhi</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00105</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 22 - Delhi</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00105</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 22 - Delhi</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-9549.07</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>8096.33</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1452.74</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Masala Mix - 200g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>227.86/pcs</RATE>
+              <AMOUNT>8070.80</AMOUNT>
+              <ACTUALQTY>35.42 pcs</ACTUALQTY>
+              <BILLEDQTY>35.42 pcs</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20170920</DATE>
+            <NARRATION>Purchase from Supplier 17 - Delhi - P00106</NARRATION>
+            <PARTYNAME>Supplier 17 - Delhi</PARTYNAME>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>P00106</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Supplier 17 - Delhi</PARTYLEDGERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <REFERENCE>P00106</REFERENCE>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Supplier 17 - Delhi</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-11070.99</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Interstate</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>9405.07</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1665.92</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sunflower Oil - 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <RATE>278.60/ltr</RATE>
+              <AMOUNT>9255.09</AMOUNT>
+              <ACTUALQTY>33.22 ltr</ACTUALQTY>
+              <BILLEDQTY>33.22 ltr</BILLEDQTY>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

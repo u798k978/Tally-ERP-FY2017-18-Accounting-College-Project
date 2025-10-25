@@ -1,0 +1,22 @@
+Tally XML Import Samples (GST-era only)
+======================================
+Files:
+- Tally_Sales_Sample_Import.xml      (50 Sales vouchers, Jul 2017 onward)
+- Tally_Purchases_Sample_Import.xml  (50 Purchase vouchers, Jul 2017 onward)
+
+How to Use:
+1. Open Tally ERP 9 in the company with GST enabled (Karnataka 29).
+2. Ensure the following ledgers exist (exact names):
+   - Sales - Domestic, Sales - Interstate
+   - Purchase - Domestic, Purchase - Interstate
+   - Output CGST, Output SGST, Output IGST
+   - Input CGST, Input SGST, Input IGST
+   - All party ledgers referenced in the XML (create via Ledgers_All.csv if needed).
+   - Stock items and units as per Stock_Items.csv and Units.csv.
+3. From Gateway of Tally: Import of Data → Vouchers → select the XML file.
+4. Review a few imported vouchers to confirm taxes and amounts.
+5. Pre-GST (Apr–Jun 2017) vouchers use VAT/CST and are NOT included here; those would need a different template.
+
+Notes:
+- These samples use a single inventory line per voucher and a simplified base amount logic (Taxable + Freight + Round Off).
+- If your Tally has different ledger names, edit the XML <LEDGERNAME> values accordingly.
