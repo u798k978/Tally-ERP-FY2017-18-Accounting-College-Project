@@ -1,0 +1,238 @@
+
+;; -----------------------------------------------------------------------------
+;; Aarav Foods – Project Summary (TDL)
+;; Adds a custom report under Display → Aarav Project Summary
+;; Shows Sales, Purchases, GST (Output/Input) and a quick net figure for selected period.
+;; Assumes ledger names used previously:
+;;   Sales - Domestic / Sales - Interstate
+;;   Purchase - Domestic / Purchase - Interstate
+;;   Output CGST / Output SGST / Output IGST
+;;   Input CGST / Input SGST / Input IGST
+;; -----------------------------------------------------------------------------
+
+[#Menu: Display]
+    Add    : Item  : After : Statements of Accounts : Aarav Project Summary : AaravProjReport
+
+[Report: AaravProjReport]
+    Form           : AaravProjForm
+    Title          : "Aarav Foods – Project Summary"
+    Variable       : SVFromDate, SVToDate
+    Set            : SVFromDate   : $$FinYearFrom
+    Set            : SVToDate     : $$FinYearTo
+    Allow          : Alter
+    Button         : Change Period
+
+[Form: AaravProjForm]
+    Part           : AaravProjPart
+    Button         : Change Period
+
+[Part: AaravProjPart]
+    Lines          : AaravTitle, BlankLine
+                   , SalesHdr, SalesBaseLine
+                   , PurchHdr, PurchBaseLine
+                   , TaxHdr, OutCGSTLine, OutSGSTLine, OutIGSTLine, InCGSTLine, InSGSTLine, InIGSTLine
+                   , BlankLine, NetGSTLine
+    Repeat         : BlankLine : 1
+
+[Line: AaravTitle]
+    Fields         : Medium Prompt, Medium Amount
+    Local          : Field : Medium Prompt : Set As : "Period"
+    Local          : Field : Medium Amount : Set As : $$FormatDate:##SVFromDate:"DD-MMM-YYYY" + "  to  " + $$FormatDate:##SVToDate:"DD-MMM-YYYY"
+
+[Line: BlankLine]
+    Fields         : Simple Prompt
+    Local          : Field : Simple Prompt : Set As : ""
+
+[Line: SalesHdr]
+    Fields         : Header Prompt
+    Local          : Field : Header Prompt : Set As : "SALES"
+
+[Line: SalesBaseLine]
+    Fields         : Simple Prompt, Amount Right
+    Local          : Field : Simple Prompt  : Set As : "Net Sales (base)"
+    Local          : Field : Amount Right   : Set As : $$Abs($$CollectionSum:CollSalesRevenueLE:Amount)
+
+[Line: PurchHdr]
+    Fields         : Header Prompt
+    Local          : Field : Header Prompt : Set As : "PURCHASES"
+
+[Line: PurchBaseLine]
+    Fields         : Simple Prompt, Amount Right
+    Local          : Field : Simple Prompt  : Set As : "Net Purchases (base)"
+    Local          : Field : Amount Right   : Set As : $$Abs($$CollectionSum:CollPurchaseLE:Amount)
+
+[Line: TaxHdr]
+    Fields         : Header Prompt
+    Local          : Field : Header Prompt : Set As : "GST SUMMARY"
+
+[Line: OutCGSTLine]
+    Fields         : Simple Prompt, Amount Right
+    Local          : Field : Simple Prompt  : Set As : "Output CGST"
+    Local          : Field : Amount Right   : Set As : $$Abs($$CollectionSum:CollOutputCGST:Amount)
+
+[Line: OutSGSTLine]
+    Fields         : Simple Prompt, Amount Right
+    Local          : Field : Simple Prompt  : Set As : "Output SGST"
+    Local          : Field : Amount Right   : Set As : $$Abs($$CollectionSum:CollOutputSGST:Amount)
+
+[Line: OutIGSTLine]
+    Fields         : Simple Prompt, Amount Right
+    Local          : Field : Simple Prompt  : Set As : "Output IGST"
+    Local          : Field : Amount Right   : Set As : $$Abs($$CollectionSum:CollOutputIGST:Amount)
+
+[Line: InCGSTLine]
+    Fields         : Simple Prompt, Amount Right
+    Local          : Field : Simple Prompt  : Set As : "Input CGST"
+    Local          : Field : Amount Right   : Set As : $$Abs($$CollectionSum:CollInputCGST:Amount)
+
+[Line: InSGSTLine]
+    Fields         : Simple Prompt, Amount Right
+    Local          : Field : Simple Prompt  : Set As : "Input SGST"
+    Local          : Field : Amount Right   : Set As : $$Abs($$CollectionSum:CollInputSGST:Amount)
+
+[Line: InIGSTLine]
+    Fields         : Simple Prompt, Amount Right
+    Local          : Field : Simple Prompt  : Set As : "Input IGST"
+    Local          : Field : Amount Right   : Set As : $$Abs($$CollectionSum:CollInputIGST:Amount)
+
+[Line: NetGSTLine]
+    Fields         : Simple Prompt, Amount Right
+    Local          : Field : Simple Prompt  : Set As : "Net GST Liability (Output - Input)"
+    Local          : Field : Amount Right   : Set As : $$Abs(($$CollectionSum:CollOutputCGST:Amount + $$CollectionSum:CollOutputSGST:Amount + $$CollectionSum:CollOutputIGST:Amount) - ($$CollectionSum:CollInputCGST:Amount + $$CollectionSum:CollInputSGST:Amount + $$CollectionSum:CollInputIGST:Amount))
+
+;; --------- FIELD DEFINITIONS -------------------------------------------------
+
+[Field: Simple Prompt]
+    Use            : Name Field
+    Width          : 40
+
+[Field: Header Prompt]
+    Use            : Name Field
+    Width          : 40
+    Style          : Bold
+
+[Field: Medium Prompt]
+    Use            : Name Field
+    Width          : 20
+    Style          : Bold
+
+[Field: Medium Amount]
+    Use            : Amount Field
+    Width          : 30
+    Align          : Right
+
+[Field: Amount Right]
+    Use            : Amount Field
+    Width          : 30
+    Align          : Right
+
+;; --------- COLLECTIONS & FILTERS --------------------------------------------
+
+;; Sales vouchers in period
+[Collection: CollSalesVch]
+    Type           : Voucher
+    Filter         : FltSales
+
+[Filter: FltSales]
+    VchType        : == "Sales"
+    Date           : >= ##SVFromDate
+    Date           : <= ##SVToDate
+
+;; Purchase vouchers in period
+[Collection: CollPurchVch]
+    Type           : Voucher
+    Filter         : FltPurch
+
+[Filter: FltPurch]
+    VchType        : == "Purchase"
+    Date           : >= ##SVFromDate
+    Date           : <= ##SVToDate
+
+;; Ledger Entries for sales revenue (credit lines on Sales ledgers)
+[Collection: CollSalesRevenueLE]
+    Type           : Ledger Entry
+    Walk           : CollSalesVch
+    Fetch          : LedgerName, Amount
+    Filter         : FltSalesLedgers
+
+[Filter: FltSalesLedgers]
+    LedgerName     : == "Sales - Domestic" OR $$StringEqual:LedgerName:"Sales - Interstate"
+
+;; Ledger Entries for purchases (debit lines on Purchase ledgers)
+[Collection: CollPurchaseLE]
+    Type           : Ledger Entry
+    Walk           : CollPurchVch
+    Fetch          : LedgerName, Amount
+    Filter         : FltPurchLedgers
+
+[Filter: FltPurchLedgers]
+    LedgerName     : == "Purchase - Domestic" OR $$StringEqual:LedgerName:"Purchase - Interstate"
+
+;; Output GST (from Sales vouchers)
+[Collection: CollOutputCGST]
+    Type           : Ledger Entry
+    Walk           : CollSalesVch
+    Fetch          : LedgerName, Amount
+    Filter         : FltOutCGST
+
+[Filter: FltOutCGST]
+    LedgerName     : == "Output CGST"
+
+[Collection: CollOutputSGST]
+    Type           : Ledger Entry
+    Walk           : CollSalesVch
+    Fetch          : LedgerName, Amount
+    Filter         : FltOutSGST
+
+[Filter: FltOutSGST]
+    LedgerName     : == "Output SGST"
+
+[Collection: CollOutputIGST]
+    Type           : Ledger Entry
+    Walk           : CollSalesVch
+    Fetch          : LedgerName, Amount
+    Filter         : FltOutIGST
+
+[Filter: FltOutIGST]
+    LedgerName     : == "Output IGST"
+
+;; Input GST (from Purchase vouchers)
+[Collection: CollInputCGST]
+    Type           : Ledger Entry
+    Walk           : CollPurchVch
+    Fetch          : LedgerName, Amount
+    Filter         : FltInCGST
+
+[Filter: FltInCGST]
+    LedgerName     : == "Input CGST"
+
+[Collection: CollInputSGST]
+    Type           : Ledger Entry
+    Walk           : CollPurchVch
+    Fetch          : LedgerName, Amount
+    Filter         : FltInSGST
+
+[Filter: FltInSGST]
+    LedgerName     : == "Input SGST"
+
+[Collection: CollInputIGST]
+    Type           : Ledger Entry
+    Walk           : CollPurchVch
+    Fetch          : LedgerName, Amount
+    Filter         : FltInIGST
+
+[Filter: FltInIGST]
+    LedgerName     : == "Input IGST"
+
+;; --------- BUTTON ------------------------------------------------------------
+
+[Button: Change Period]
+    Title          : $$LocaleString:"Change Period"
+    Key            : Alt+F2
+    Action         : Set Period
+
+;; --------- STYLE -------------------------------------------------------------
+[Style: Bold]
+    Font           : Arial
+    Bold           : Yes
+
